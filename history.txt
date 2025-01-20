@@ -1,0 +1,75 @@
+ 2007  mkdir git-basic-exercises
+ 2008  cd git-basic-exercises/
+ 2009  clear
+ 2010  ls -a
+ 2011  la
+ 2012  clear
+ 2013  git init
+ 2014  ls -a
+ 2015  git status
+ 2016  touch README.md
+ 2017  clear
+ 2018  git status
+ 2019  git log
+ 2020  git add README.md 
+ 2021  git status
+ 2022  git commit -m "initial commit"
+ 2023  git log
+ 2024  vim README.md 
+ 2025  clear
+ 2026  cat README.md 
+ 2027  git status
+ 2028  git add README.md 
+ 2029  git commit -m "second commit"
+ 2030  vim README.md 
+ 2031  cat README.md 
+ 2032  git status
+ 2033  git add README.md 
+ 2034  git commit -m "third commit"
+ 2035  clear
+ 2036  git log
+ 2037  git checkout 85ba7f610b10051defd79f68f86732e5be94a15b
+ 2038  cat README.md 
+ 2039  git checkout main
+ 2040  clear
+ 2041  cat README.md 
+ 2042  git branch
+ 2043  git branch milkshake-flavours
+ 2044  git branch 
+ 2045  git checkout milkshake-flavours 
+ 2046  git branch
+ 2047  vim milkshakes.md
+ 2048  git status
+ 2049  cat milkshakes.md 
+ 2050  git add milkshakes.md 
+ 2051  git commit -m "added initial flavours"
+ 2052  clear
+ 2053  git log
+ 2054  git checkout main 
+ 2055  clear
+ 2056  git checkout history 
+ 2057  git branch history 
+ 2058  git branch
+ 2059  history > history.txt
+ 2060  ls
+ 2061  git log
+ 2062  cat history.txt 
+ 2063  clear
+ 2064  git branch
+ 2065  ls
+ 2066  vim history.txt 
+ 2067  code history.txt 
+ 2068  git log
+ 2069  clear
+ 2070  ls
+ 2071  rm history.txt 
+ 2072  clear
+ 2073  ls
+ 2074  git checkout milkshake-flavours 
+ 2075  ls
+ 2076  git log
+ 2077  clear
+ 2078  ls
+ 2079  git checkout history 
+ 2080  ls
+ 2081  history > history.txt
